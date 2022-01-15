@@ -2,7 +2,7 @@
 library(readxl)
 
 # Read receipt names from excel file
-recetas <- read_excel(path = "../ZZZ-lista comidas.xlsx",
+recetas <- read_xlsx(path = "../ZZZ-lista comidas.xlsx",
                       sheet = "Platos",
                       col_names = FALSE,
                       col_types = "text")
