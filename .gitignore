@@ -5,3 +5,6 @@
 
 # hidden files
 .*
+
+# To-do list is not necessary in master branch
+todo
